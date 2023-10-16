@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <title></title>
+    <style>
+    body {
+        font-family: 'Cabin', sans-serif;
+        background-color: #334776;
+    }
+
+    #top-bar {
+        background-color: #f8e8c4;
+        padding: 10px 20px;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+        color: #000000;
+    }
+
+    #content-wrapper {
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+
+    #instructions {
+        border-right: 1px solid #ccc;
+    }       
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div id="top-bar">
+        <h1>Movie Management System</h1>
+    </div>
+    <div id="content-wrapper" style="display: flex; padding: 20px;">
+        <div id="instructions" style="flex: 1; padding: 20px;">
+            <h2>Output Results!</h2>
+        </div>
+        <div id="result" style="flex: 2; padding: 20px; background: #f9f9f9; border-radius: 10px; box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);">
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
